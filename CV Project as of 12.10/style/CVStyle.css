@@ -1,0 +1,84 @@
+/*I managed to get @media to work but I lose all of my css styling on the page once its minimised past a certain point */
+@media (min-width: 760px) {
+	.container-2{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	}
+	.container-1{
+	
+	display:flex;
+		
+	}
+
+}
+
+
+
+body{
+	color:#2F4F4F;
+	font-family:Apotos
+}
+body{
+	background-color:#FFFAF0;
+}
+h1{
+	  text-shadow: 2px 2px #8FBC8F;
+}
+h3{
+	text-shadow: 2px 2px #8FBC8F;
+}
+.bulletpoint{	
+	list-style-type: square;
+}
+.unb{
+	text-decoration: underline;
+	font-weight: bold;
+}
+a{
+	color:#8FBC8F;
+}
+
+.container-2{
+	display:flex;
+	flex-direction:column;
+	
+}
+.container-2 div{
+	
+	border: 2px #8FBC8F solid;
+	padding:10px;
+	margin:10px;
+}
+.cont-2-box{
+	flex-basis:25%
+}
+.container-1{
+	display:flex;
+	
+}
+.container-1 div{
+	
+	border: 2px #8FBC8F solid;
+	padding:10px;
+}
+
+.box-1{
+	flex:1;
+
+}
+
+.box-2{
+	flex:1;
+	
+}
+
+.box-3{
+	flex:1;
+	
+}
+#logo{
+	width:50px;
+	height:50px
+}
+}
