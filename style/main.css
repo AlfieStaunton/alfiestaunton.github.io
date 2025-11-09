@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
-
     font-family: "Tinos", serif;
     font-size: 16px;
     font-weight: 400;
@@ -28,16 +27,16 @@ html {
 }
 
 body {
+    padding: 0;
     color: #2F4F4F;
-    background:#2f4f4f13 !important;
+    background: #2f4f4f13 !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Header Styling */
 header {
-    background: linear-gradient(0deg,  #8fbc8fdd 0%, #6b9b6b13 100%);
+    background: linear-gradient(0deg, #8fbc8fdd 0%, #6b9b6b13 100%);
     color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -48,22 +47,21 @@ header h1 {
 }
 
 header h1 a {
-    text-decoration: none; 
-      color: inherit;        
+    text-decoration: none;
+    color: inherit;
 }
+
 header h2 {
     font-size: 1.2rem;
     font-weight: 400;
     margin: 0.25rem 0;
 }
 
-/* Navigation Styling */
 nav {
     background: #f8f9fa;
     border-bottom: 3px solid var(--color-primary);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
-    
 
 nav a {
     text-decoration: underline;
@@ -74,14 +72,13 @@ nav a {
     padding: 0.5rem 1rem;
     display: inline-block;
     color: inherit;
-   
 }
 
 nav a:hover {
-  text-decoration-color: currentColor;
-  text-underline-offset: 0.5rem;
+    text-decoration-color: currentColor;
+    text-underline-offset: 0.5rem;
 }
-/* Main Content Styling */
+
 main {
     flex: 1;
     background-color: white;
@@ -92,7 +89,6 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Footer Styling */
 footer {
     background-color: #2F4F4F;
     color: white;
@@ -115,6 +111,11 @@ h3 {
     text-shadow: 2px 2px #8FBC8F;
 }
 
+.cover {
+    padding: 1em;
+    background-color: white !important;
+}
+
 .bulletpoint {
     list-style-type: square;
 }
@@ -132,6 +133,10 @@ h3 {
 
 }
 
+.container-3 {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .cont-2-box {
